@@ -59,8 +59,23 @@ const App: React.FC = () => {
       </div>
 
       <div className="fixed bottom-0 w-full h-1/4 bg-gradient-to-t from-slate-900 to-transparent opacity-50 pointer-events-none z-0" />
-      <div className={`fixed bottom-6 w-full text-center text-xs text-slate-600 transition-opacity duration-500 pointer-events-none select-none z-10 ${isLampOn ? 'opacity-0' : 'opacity-100'}`}>
+      <div className={`fixed bottom-8 w-full text-center text-xs text-slate-600 transition-opacity duration-500 pointer-events-none select-none z-10 ${isLampOn ? 'opacity-0' : 'opacity-100'}`}>
         Press <kbd className="px-1.5 py-0.5 bg-slate-800 rounded text-slate-500 text-[10px]">Space</kbd> to toggle lamp
+      </div>
+
+      {/* Developer Credit */}
+      <div className="fixed bottom-2 w-full text-center z-20 pointer-events-none">
+        <p className="text-[10px] text-slate-500/70 tracking-wider">
+          Developed by{' '}
+          <a
+            href="https://bio.link/faysalmahmudprem"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-slate-400 hover:text-slate-300 transition-colors pointer-events-auto"
+          >
+            Faysal Mahmud Prem
+          </a>
+        </p>
       </div>
     </div>
   );
