@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment (NEVER commit real API keys)
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vite
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
